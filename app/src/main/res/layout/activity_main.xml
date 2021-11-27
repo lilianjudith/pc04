@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:peddingBotton="@dimen/activity_vertical_margin"
+    android:peddingLeft="@dimen/activity_horizontal_margin"
+    android:peddingRight="@dimen/activity_horizontal_margin"
+    android:peddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+
+    >
+
+    <EditText
+        android:id="@+id/Nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="nombre"
+        />
+
+    <EditText
+        android:id="@+id/Apellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="apellido"
+        />
+    <EditText
+        android:id="@+id/Género"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="género"
+        />
+
+    <EditText
+        android:id="@+id/Edad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="edad"
+        />
+    <EditText
+        android:id="@+id/Dirección"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="dirección"
+        />
+
+    <EditText
+        android:id="@+id/Telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="telefono"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/Mostrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Registrar "
+            android:textSize="15sp"
+
+            />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="00"
+        android:gravity="center"
+        android:textSize="120sp"
+        />
